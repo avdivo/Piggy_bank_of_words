@@ -6,7 +6,6 @@ from translate import Translator
 import goslate
 
 url = 'https://flask-user.readthedocs.io/en/latest/'
-url = 'https://lengish.com/texts/text-1.html'
 
 response = requests.get(url).content
 soup = BeautifulSoup(response, "html.parser")
